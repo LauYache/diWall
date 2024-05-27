@@ -2,7 +2,7 @@
 //  DiWallApp.swift
 //  DiWall
 //
-//  Created by Laura Belen Yachelini on 18/05/2024.
+//  Created by Laura Belen Yachelini on 20/05/2024.
 //
 
 import SwiftUI
@@ -11,7 +11,9 @@ import SwiftUI
 struct DiWallApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          NavigationView{
+            MainView()
+            }
         }
     }
 }

@@ -8,17 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		645C055E2BF8ADE900958CF7 /* DiWallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C055D2BF8ADE900958CF7 /* DiWallApp.swift */; };
-		645C05602BF8ADE900958CF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C055F2BF8ADE900958CF7 /* ContentView.swift */; };
+		645C05602BF8ADE900958CF7 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C055F2BF8ADE900958CF7 /* SplashView.swift */; };
 		645C05622BF8ADEB00958CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645C05612BF8ADEB00958CF7 /* Assets.xcassets */; };
 		645C05652BF8ADEB00958CF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645C05642BF8ADEB00958CF7 /* Preview Assets.xcassets */; };
+		645C056C2BFB492200958CF7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C056B2BFB492200958CF7 /* LoginView.swift */; };
+		645C05702BFB4F6500958CF7 /* TextViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C056F2BFB4F6500958CF7 /* TextViewModifier.swift */; };
+		645C05722BFB4FE800958CF7 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C05712BFB4FE800958CF7 /* RegistrationView.swift */; };
+		645C05742BFB50E300958CF7 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C05732BFB50E300958CF7 /* RoundedButton.swift */; };
+		645C057A2BFDE98300958CF7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C05792BFDE98300958CF7 /* AuthService.swift */; };
+		645C057C2BFDE9C200958CF7 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C057B2BFDE9C200958CF7 /* AuthViewModel.swift */; };
+		645C05802BFDEF4C00958CF7 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C057F2BFDEF4C00958CF7 /* DashboardView.swift */; };
+		645C05822BFDF08C00958CF7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C05812BFDF08C00958CF7 /* MainView.swift */; };
+		645C05842BFDF3C700958CF7 /* OnboargingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C05832BFDF3C700958CF7 /* OnboargingView.swift */; };
+		645C05882BFF405D00958CF7 /* QuickStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C05872BFF405D00958CF7 /* QuickStartView.swift */; };
+		645C058A2BFF425300958CF7 /* SavingGoalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C05892BFF425300958CF7 /* SavingGoalModel.swift */; };
+		645C058C2BFF42A300958CF7 /* QuickStartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C058B2BFF42A300958CF7 /* QuickStartViewModel.swift */; };
+		645C058E2BFF47B000958CF7 /* QuickStartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C058D2BFF47B000958CF7 /* QuickStartData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		645C055A2BF8ADE900958CF7 /* DiWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		645C055D2BF8ADE900958CF7 /* DiWallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiWallApp.swift; sourceTree = "<group>"; };
-		645C055F2BF8ADE900958CF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		645C055F2BF8ADE900958CF7 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		645C05612BF8ADEB00958CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		645C05642BF8ADEB00958CF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		645C056B2BFB492200958CF7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		645C056F2BFB4F6500958CF7 /* TextViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewModifier.swift; sourceTree = "<group>"; };
+		645C05712BFB4FE800958CF7 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		645C05732BFB50E300958CF7 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		645C05792BFDE98300958CF7 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		645C057B2BFDE9C200958CF7 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		645C057F2BFDEF4C00958CF7 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		645C05812BFDF08C00958CF7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		645C05832BFDF3C700958CF7 /* OnboargingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboargingView.swift; sourceTree = "<group>"; };
+		645C05872BFF405D00958CF7 /* QuickStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartView.swift; sourceTree = "<group>"; };
+		645C05892BFF425300958CF7 /* SavingGoalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingGoalModel.swift; sourceTree = "<group>"; };
+		645C058B2BFF42A300958CF7 /* QuickStartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartViewModel.swift; sourceTree = "<group>"; };
+		645C058D2BFF47B000958CF7 /* QuickStartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +78,11 @@
 			isa = PBXGroup;
 			children = (
 				645C055D2BF8ADE900958CF7 /* DiWallApp.swift */,
-				645C055F2BF8ADE900958CF7 /* ContentView.swift */,
+				645C05782BFDE91300958CF7 /* Services */,
+				645C05772BFDE8FB00958CF7 /* Models */,
+				645C05752BFDE8B700958CF7 /* ViewModels */,
+				645C056E2BFB4F3000958CF7 /* Views */,
+				645C056D2BFB4F2000958CF7 /* Modifiers */,
 				645C05612BF8ADEB00958CF7 /* Assets.xcassets */,
 				645C05632BF8ADEB00958CF7 /* Preview Content */,
 			);
@@ -65,6 +95,55 @@
 				645C05642BF8ADEB00958CF7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		645C056D2BFB4F2000958CF7 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				645C056F2BFB4F6500958CF7 /* TextViewModifier.swift */,
+				645C05732BFB50E300958CF7 /* RoundedButton.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		645C056E2BFB4F3000958CF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				645C056B2BFB492200958CF7 /* LoginView.swift */,
+				645C055F2BF8ADE900958CF7 /* SplashView.swift */,
+				645C05712BFB4FE800958CF7 /* RegistrationView.swift */,
+				645C057F2BFDEF4C00958CF7 /* DashboardView.swift */,
+				645C05812BFDF08C00958CF7 /* MainView.swift */,
+				645C05832BFDF3C700958CF7 /* OnboargingView.swift */,
+				645C05872BFF405D00958CF7 /* QuickStartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		645C05752BFDE8B700958CF7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				645C057B2BFDE9C200958CF7 /* AuthViewModel.swift */,
+				645C058B2BFF42A300958CF7 /* QuickStartViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		645C05772BFDE8FB00958CF7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				645C05892BFF425300958CF7 /* SavingGoalModel.swift */,
+				645C058D2BFF47B000958CF7 /* QuickStartData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		645C05782BFDE91300958CF7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				645C05792BFDE98300958CF7 /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +216,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				645C05602BF8ADE900958CF7 /* ContentView.swift in Sources */,
+				645C05842BFDF3C700958CF7 /* OnboargingView.swift in Sources */,
+				645C05702BFB4F6500958CF7 /* TextViewModifier.swift in Sources */,
+				645C058A2BFF425300958CF7 /* SavingGoalModel.swift in Sources */,
+				645C058C2BFF42A300958CF7 /* QuickStartViewModel.swift in Sources */,
+				645C05742BFB50E300958CF7 /* RoundedButton.swift in Sources */,
+				645C058E2BFF47B000958CF7 /* QuickStartData.swift in Sources */,
+				645C056C2BFB492200958CF7 /* LoginView.swift in Sources */,
+				645C05822BFDF08C00958CF7 /* MainView.swift in Sources */,
+				645C05882BFF405D00958CF7 /* QuickStartView.swift in Sources */,
+				645C05602BF8ADE900958CF7 /* SplashView.swift in Sources */,
+				645C05802BFDEF4C00958CF7 /* DashboardView.swift in Sources */,
+				645C057C2BFDE9C200958CF7 /* AuthViewModel.swift in Sources */,
 				645C055E2BF8ADE900958CF7 /* DiWallApp.swift in Sources */,
+				645C05722BFB4FE800958CF7 /* RegistrationView.swift in Sources */,
+				645C057A2BFDE98300958CF7 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
