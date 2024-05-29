@@ -10,6 +10,7 @@ import SwiftUI
 struct LoginView: View{
   @ObservedObject var viewModel = AuthViewModel()
     
+    @State var isActive = false
   var backgroundColor: Color = .electricBlue
     
     var body: some View{
@@ -82,6 +83,7 @@ struct LoginView: View{
             HStack{
               Button{
                 viewModel.login()
+                  isActive = true
               } label: {
                 Text("Login")
                   .foregroundStyle(.white)
@@ -104,7 +106,9 @@ struct LoginView: View{
           }
           
         }
-       
+      .fullScreenCover(isPresented: $isActive, content: {
+              PrincipalView()
+          })
       }
     }
 

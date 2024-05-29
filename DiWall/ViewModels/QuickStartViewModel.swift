@@ -34,6 +34,7 @@ class QuickStartViewModel: ObservableObject {
     
   }
   
+    
   func calculatePlan() -> String {
     guard let goal = data.savingGoal, let time = data.savingTime, let monthlySaving = data.monthlySaving else {
       return "Faltan datos para calcular el plan."
