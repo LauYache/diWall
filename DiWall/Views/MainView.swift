@@ -11,6 +11,7 @@ struct MainView: View {
   @StateObject var authViewModel = AuthViewModel()
   @State private var showSplash = true
   @State private var showOnboarding = !UserDefaults.standard.bool(forKey: "hasSeenOnboarding")
+    
   
   var body: some View {
     VStack {
@@ -22,13 +23,14 @@ struct MainView: View {
           OnboargingView(showOnboarding: $showOnboarding)
             .transition(.opacity)
         }else if authViewModel.isAuthenticated {
-          DashboardView()
+          PrincipalView()
             .transition(.opacity)
         } else {
           LoginView(viewModel: authViewModel)
             .transition(.opacity)
         }
       }
+        
     }
     .onAppear {
       DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
@@ -37,6 +39,9 @@ struct MainView: View {
         }
       }
     }
+   
+        
+      
   }
 }
 
