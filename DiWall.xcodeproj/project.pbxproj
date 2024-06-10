@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		644D72B82C12141400421861 /* Coordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D72B02C12141400421861 /* Coordinatable.swift */; };
+		644D72B92C12141400421861 /* PresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D72B12C12141400421861 /* PresentationStyle.swift */; };
+		644D72BA2C12141400421861 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D72B22C12141400421861 /* Route.swift */; };
+		644D72BB2C12141400421861 /* MainCoordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D72B42C12141400421861 /* MainCoordinatable.swift */; };
+		644D72BC2C12141400421861 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D72B52C12141400421861 /* MainCoordinator.swift */; };
+		644D72C42C12162200421861 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D72C32C12162200421861 /* SplashViewModel.swift */; };
+		644D72C72C12189C00421861 /* MainCoordinatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D72C62C12189C00421861 /* MainCoordinatorMock.swift */; };
+		644D72CC2C121BC500421861 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D72CB2C121BC500421861 /* OnboardingViewModel.swift */; };
 		645C055E2BF8ADE900958CF7 /* DiWallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C055D2BF8ADE900958CF7 /* DiWallApp.swift */; };
 		645C05602BF8ADE900958CF7 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C055F2BF8ADE900958CF7 /* SplashView.swift */; };
 		645C05622BF8ADEB00958CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645C05612BF8ADEB00958CF7 /* Assets.xcassets */; };
@@ -19,7 +27,7 @@
 		645C057C2BFDE9C200958CF7 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C057B2BFDE9C200958CF7 /* AuthViewModel.swift */; };
 		645C05802BFDEF4C00958CF7 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C057F2BFDEF4C00958CF7 /* DashboardView.swift */; };
 		645C05822BFDF08C00958CF7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C05812BFDF08C00958CF7 /* MainView.swift */; };
-		645C05842BFDF3C700958CF7 /* OnboargingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C05832BFDF3C700958CF7 /* OnboargingView.swift */; };
+		645C05842BFDF3C700958CF7 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C05832BFDF3C700958CF7 /* OnboardingView.swift */; };
 		645C05882BFF405D00958CF7 /* QuickStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C05872BFF405D00958CF7 /* QuickStartView.swift */; };
 		645C058A2BFF425300958CF7 /* SavingGoalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C05892BFF425300958CF7 /* SavingGoalModel.swift */; };
 		645C058C2BFF42A300958CF7 /* QuickStartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645C058B2BFF42A300958CF7 /* QuickStartViewModel.swift */; };
@@ -35,6 +43,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		644D72B02C12141400421861 /* Coordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinatable.swift; sourceTree = "<group>"; };
+		644D72B12C12141400421861 /* PresentationStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationStyle.swift; sourceTree = "<group>"; };
+		644D72B22C12141400421861 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		644D72B42C12141400421861 /* MainCoordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinatable.swift; sourceTree = "<group>"; };
+		644D72B52C12141400421861 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		644D72C32C12162200421861 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		644D72C62C12189C00421861 /* MainCoordinatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorMock.swift; sourceTree = "<group>"; };
+		644D72CB2C121BC500421861 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		645C055A2BF8ADE900958CF7 /* DiWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		645C055D2BF8ADE900958CF7 /* DiWallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiWallApp.swift; sourceTree = "<group>"; };
 		645C055F2BF8ADE900958CF7 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
@@ -48,7 +64,7 @@
 		645C057B2BFDE9C200958CF7 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		645C057F2BFDEF4C00958CF7 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		645C05812BFDF08C00958CF7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		645C05832BFDF3C700958CF7 /* OnboargingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboargingView.swift; sourceTree = "<group>"; };
+		645C05832BFDF3C700958CF7 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		645C05872BFF405D00958CF7 /* QuickStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartView.swift; sourceTree = "<group>"; };
 		645C05892BFF425300958CF7 /* SavingGoalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingGoalModel.swift; sourceTree = "<group>"; };
 		645C058B2BFF42A300958CF7 /* QuickStartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartViewModel.swift; sourceTree = "<group>"; };
@@ -74,6 +90,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		644D72B32C12141400421861 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				644D72B02C12141400421861 /* Coordinatable.swift */,
+				644D72B12C12141400421861 /* PresentationStyle.swift */,
+				644D72B22C12141400421861 /* Route.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		644D72B62C12141400421861 /* MainCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				644D72B42C12141400421861 /* MainCoordinatable.swift */,
+				644D72B52C12141400421861 /* MainCoordinator.swift */,
+			);
+			path = MainCoordinator;
+			sourceTree = "<group>";
+		};
+		644D72B72C12141400421861 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				644D72B32C12141400421861 /* Core */,
+				644D72B62C12141400421861 /* MainCoordinator */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		644D72C02C1215FB00421861 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				644D72C22C12160E00421861 /* ViewModel */,
+				644D72C12C12160700421861 /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		644D72C12C12160700421861 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				645C055F2BF8ADE900958CF7 /* SplashView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		644D72C22C12160E00421861 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				644D72C32C12162200421861 /* SplashViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		644D72C52C12187900421861 /* PreviewUtils */ = {
+			isa = PBXGroup;
+			children = (
+				644D72C62C12189C00421861 /* MainCoordinatorMock.swift */,
+			);
+			path = PreviewUtils;
+			sourceTree = "<group>";
+		};
+		644D72C82C121B9200421861 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				644D72CA2C121BB800421861 /* ViewModel */,
+				644D72C92C121B9D00421861 /* View */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		644D72C92C121B9D00421861 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				645C05832BFDF3C700958CF7 /* OnboardingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		644D72CA2C121BB800421861 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				644D72CB2C121BC500421861 /* OnboardingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		645C05512BF8ADE900958CF7 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +195,8 @@
 		645C055C2BF8ADE900958CF7 /* DiWall */ = {
 			isa = PBXGroup;
 			children = (
+				644D72C52C12187900421861 /* PreviewUtils */,
+				644D72B72C12141400421861 /* Coordinator */,
 				645C055D2BF8ADE900958CF7 /* DiWallApp.swift */,
 				645C05782BFDE91300958CF7 /* Services */,
 				645C05772BFDE8FB00958CF7 /* Models */,
@@ -125,12 +229,12 @@
 		645C056E2BFB4F3000958CF7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				644D72C82C121B9200421861 /* Onboarding */,
+				644D72C02C1215FB00421861 /* Splash */,
 				645C056B2BFB492200958CF7 /* LoginView.swift */,
-				645C055F2BF8ADE900958CF7 /* SplashView.swift */,
 				645C05712BFB4FE800958CF7 /* RegistrationView.swift */,
 				645C057F2BFDEF4C00958CF7 /* DashboardView.swift */,
 				645C05812BFDF08C00958CF7 /* MainView.swift */,
-				645C05832BFDF3C700958CF7 /* OnboargingView.swift */,
 				645C05872BFF405D00958CF7 /* QuickStartView.swift */,
 				8C2972762C07AB7B00B88BEC /* OtherViews */,
 			);
@@ -256,21 +360,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				645C05842BFDF3C700958CF7 /* OnboargingView.swift in Sources */,
+				645C05842BFDF3C700958CF7 /* OnboardingView.swift in Sources */,
+				644D72BC2C12141400421861 /* MainCoordinator.swift in Sources */,
 				645C05702BFB4F6500958CF7 /* TextViewModifier.swift in Sources */,
+				644D72B92C12141400421861 /* PresentationStyle.swift in Sources */,
 				645C058A2BFF425300958CF7 /* SavingGoalModel.swift in Sources */,
 				8C29727B2C07ABCA00B88BEC /* MenuView.swift in Sources */,
 				8C2972812C07AC2D00B88BEC /* RectangleView.swift in Sources */,
+				644D72B82C12141400421861 /* Coordinatable.swift in Sources */,
 				645C058C2BFF42A300958CF7 /* QuickStartViewModel.swift in Sources */,
 				645C05742BFB50E300958CF7 /* RoundedButton.swift in Sources */,
 				645C058E2BFF47B000958CF7 /* QuickStartData.swift in Sources */,
 				645C056C2BFB492200958CF7 /* LoginView.swift in Sources */,
 				645C05822BFDF08C00958CF7 /* MainView.swift in Sources */,
 				8C2972832C07AC4C00B88BEC /* SegmentedCard.swift in Sources */,
+				644D72BB2C12141400421861 /* MainCoordinatable.swift in Sources */,
 				645C05882BFF405D00958CF7 /* QuickStartView.swift in Sources */,
 				645C05602BF8ADE900958CF7 /* SplashView.swift in Sources */,
+				644D72CC2C121BC500421861 /* OnboardingViewModel.swift in Sources */,
 				8C2972732C07AB1100B88BEC /* DiWallModel.swift in Sources */,
 				8C2972752C07AB4000B88BEC /* DiWallCloneViewModel.swift in Sources */,
+				644D72BA2C12141400421861 /* Route.swift in Sources */,
+				644D72C42C12162200421861 /* SplashViewModel.swift in Sources */,
+				644D72C72C12189C00421861 /* MainCoordinatorMock.swift in Sources */,
 				645C05802BFDEF4C00958CF7 /* DashboardView.swift in Sources */,
 				8C2972782C07AB9400B88BEC /* PrincipalView.swift in Sources */,
 				8C29727D2C07ABF000B88BEC /* ExpensesAndSavingsView.swift in Sources */,
