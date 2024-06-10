@@ -7,25 +7,37 @@
 
 import Foundation
 import Combine
+import Observation
 
-class AuthViewModel: ObservableObject {
-    @Published var username = ""
-    @Published var password = ""
-    @Published var isAuthenticated = false
-    @Published var showAlert = false
-
-    private let authService = AuthService()
-
-    func login() {
-        authService.login(username: username, password: password) { success in
-            DispatchQueue.main.async {
-                self.isAuthenticated = success
-                if !success {
-                  
-                  //cambiar a true
-                    self.showAlert = true
-                }
-            }
+@Observable
+final class AuthViewModel {
+  var username = ""
+  var password = ""
+  var showAlert = false
+  var isAuthenticated = false
+  
+  @ObservationIgnored private let authService = AuthService()
+  @ObservationIgnored private let coordinator: MainCoordinatable
+  
+  init(coordinator: MainCoordinatable) {
+    self.coordinator = coordinator
+  }
+  
+  func login() {
+    authService.login(username: username, password: password) { [weak self] success in
+      self?.isAuthenticated = success
+      DispatchQueue.main.async {
+        if !success {
+          //cambiar a true
+          self?.showAlert = true
+          return
         }
+        self?.coordinator.didLogin()
+      }
     }
+  }
+  
+  func onTapQuickStart() {
+    coordinator.didTapQuickStart()
+  }
 }

@@ -9,11 +9,19 @@ import SwiftUI
 
 @main
 struct DiWallApp: App {
-    var body: some Scene {
-        WindowGroup {
-          NavigationView{
-            MainView()
-            }
-        }
+  @State private var coordinator = MainCoordinator()
+  
+  var body: some Scene {
+    @Bindable var stack = self.coordinator
+    WindowGroup {
+      NavigationStack(path: $stack.path) {
+        coordinator
+          .rootView()
+          .navigationDestination(for: Route.self) { page in
+            coordinator.getDestination(for: page)
+          }
+      }
+      .environment(coordinator)
     }
+  }
 }
